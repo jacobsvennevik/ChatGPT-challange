@@ -2,7 +2,7 @@
 from openai import OpenAI
 import os
 
-client = OpenAI(api_key=os.getenv("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"))  # Ensure your API key is set in the environment
+client = OpenAI(api_key=os.getenv(""))  # Ensure your API key is set in the environment
 
 def chatbot():
     response_style = "Serious professor "
