@@ -2,7 +2,7 @@
 from openai import OpenAI
 import os
 
-client = OpenAI(api_key=os.getenv(""))  # Ensure your API key is set in the environment
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))  # Ensure your API key is set in the environment
 
 def chatbot():
     response_style = "Serious professor "
